@@ -5,14 +5,14 @@ function App(): JSX.Element {
     return (
         <div className="App">
             <header className="App-header">
-                UD CISC275 with React Hooks and TypeScript : Hello World
+                Task 3 - HTML and CSS header - Evan Gantert a
             </header>
             <p>
                 Edit <code>src/App.tsx</code> and save. This page will
-                automatically reload - Evan Gantert
+                automatically reload
             </p>
+            <img src="../Assets/Quokka.jpg" alt="A picture of a quokka" />
         </div>
     );
 }
-
 export default App;
