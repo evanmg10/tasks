@@ -13,7 +13,7 @@ export function ChangeType(): JSX.Element {
             setType("multiple_choice_question");
             setString("Multiple Choice");
         }
-    }
+    } // adding comment to fix commit
     return (
         <div>
             <Button onClick={changeQuestionType}>Change Type</Button>
