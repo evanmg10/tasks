@@ -32,7 +32,7 @@ export function CycleHoliday(): JSX.Element {
             newIndex = 0;
         }
         setHoliday(chronoHolidayList[newIndex]);
-    }
+    } // need comment
     const emojiList: string[] = ["🎅", "🐇", "🎃", "🍀", "🦃"];
     return (
         <div>
