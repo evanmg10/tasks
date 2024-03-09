@@ -8,11 +8,15 @@ import { StartAttempt } from "./components/StartAttempt";
 import { TwoDice } from "./components/TwoDice";
 import { CycleHoliday } from "./components/CycleHoliday";
 import { Counter } from "./components/Counter";
+import { DoubleHalf } from "./bad-components/DoubleHalf";
+import { ColoredBox } from "./bad-components/ColoredBox";
+import { ShoveBox } from "./bad-components/ShoveBox";
+import { ChooseTeam } from "./bad-components/ChooseTeam";
 
 function App(): JSX.Element {
     return (
         <div className="App">
-            <h1 style={{ backgroundColor: "green" }}>This is my header</h1>
+            <h1 style={{ backgroundColor: "green" }}>This is my Header</h1>
             <header className="App-header">
                 CISC275 - Task 3 - HTML and CSS header - Evan Gantert
             </header>
@@ -59,6 +63,14 @@ function App(): JSX.Element {
             </Container>
             <br></br>
             <br></br> <br></br> <br></br> <br></br>
+            <hr></hr>
+            {<DoubleHalf></DoubleHalf>}
+            <hr></hr>
+            <ChooseTeam></ChooseTeam>
+            <hr></hr>
+            <ColoredBox></ColoredBox>
+            <hr></hr>
+            <ShoveBox></ShoveBox>
             <hr></hr>
             <Counter></Counter>
             <hr />
