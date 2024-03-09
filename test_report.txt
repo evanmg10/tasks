@@ -17,16 +17,16 @@ PASS src/nested.test.ts
 PASS src/components/StartAttempt.test.tsx
 PASS src/bad-components/ChooseTeam.test.tsx
 PASS src/components/TwoDice.test.tsx
-PASS src/functions.test.ts
 PASS src/bad-components/DoubleHalf.test.tsx
+PASS src/functions.test.ts
 PASS src/components/ChangeType.test.tsx
-PASS src/components/Counter.test.tsx
 PASS src/components/CycleHoliday.test.tsx
-PASS src/components/RevealAnswer.test.tsx
+PASS src/components/Counter.test.tsx
 PASS src/bad-components/ColoredBox.test.tsx
+PASS src/components/RevealAnswer.test.tsx
 PASS src/bad-components/ShoveBox.test.tsx
-PASS src/text.test.tsx
 PASS src/App.test.tsx
+PASS src/text.test.tsx
 --------------------|---------|----------|---------|---------|-------------------
 File                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 --------------------|---------|----------|---------|---------|-------------------
@@ -57,5 +57,5 @@ All files           |   97.57 |    92.85 |   99.09 |   97.52 |
 Test Suites: 16 passed, 16 total
 Tests:       111 passed, 111 total
 Snapshots:   0 total
-Time:        6.47 s
+Time:        6.172 s
 Ran all test suites.
