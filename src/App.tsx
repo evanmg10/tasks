@@ -16,7 +16,7 @@ import { ChooseTeam } from "./bad-components/ChooseTeam";
 function App(): JSX.Element {
     return (
         <div className="App">
-            <h1 style={{ backgroundColor: "green" }}>This is my header</h1>
+            <h1 style={{ backgroundColor: "green" }}>This is my Header</h1>
             <header className="App-header">
                 CISC275 - Task 3 - HTML and CSS header - Evan Gantert
             </header>
@@ -64,7 +64,7 @@ function App(): JSX.Element {
             <br></br>
             <br></br> <br></br> <br></br> <br></br>
             <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
+            {<DoubleHalf></DoubleHalf>}
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
